@@ -1,7 +1,11 @@
 Synopsis-
-Git link of project-
+Member Name 1- Praveen yadav 201505517 praveen.yadav@students.iiit.ac.in
+Member Name 1- Aman Nayak 201506515 aman.nayak@students.iiit.ac.in
 
->Aim-
+Git link of project-
+	https://github.com/praveen-yadav/courier_portal.git
+
+>Aim- A web portal to help students gets the package sent to them . All management done centrally
 >Techinical Details
 	>Functionality as Student
 		>Profile update
@@ -13,24 +17,25 @@ Git link of project-
 		  >Result will be sorted according to date
 	>As security guard
 			>Enter details
+				>Order of entering- First hostel then room no. It will show list of corresponding students name,he will be shown in a select box in form
 			>search all
-			>everyautomated email to notify
+			>Send notifications email by clicking a single button
 
 	>Page 
 		>find the search result and only show first 100 entries per page i.e option of goto page no
 >Backend structure
 	>Table courier
-		>uniqueid- yymmddxxx(max 999 courier can come)
+	   P>uniqueid- yymmddxxx(max 999 courier can come)
 		>Roll number
 		>type
 			>speed post
 			>bluedart
 		>Recieve date
 		>Last email Sent date
+			{{if currentdate-this_field>5, send email}}
 		>Address
 			>Senders name,address like flipkart,haryana etc
 		>Taken can have only two values either yes or no
-
 	>Table feedback
 		>Roll number
 		>Topic
@@ -40,3 +45,4 @@ Git link of project-
 		>Name
 		>Room no
 		>Hostel
+		>Mobile No
