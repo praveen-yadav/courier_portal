@@ -1,0 +1,21 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.AttributeError'> 'NoneType' object has no attribute 'email'"
+p3
+sS'layer'
+p4
+S'/home/praveeny/web2py/applications/courier_portal/controllers/default.py'
+p5
+sS'code'
+p6
+S"@auth.requires_login()\ndef index():\n\n    email = db.auth_user().email\n    print email\n    if db.auth_membership.group_id == 10:\n        redirect(URL('create'))\n        pass\n    else:\n        redirect(URL('show/3'))\n        pass\n\n        #  auth.settings.login_next = URL('show')\n    rows = db(db.courier).select()\n    return locals()\n\n\ndef security_index():\n    pass\n\n    # create can only be called by logged in people\n\n\ndef create():\n    # create own form in index.html\n    db.courier.arrival_date.default = request.now\n    db.courier.arrival_date.writable = False\n    db.courier.arrival_date.readable = False\n    db.courier.last_email_sent.default = request.now\n    db.courier.last_email_sent.writable = False\n    db.courier.last_email_sent.readable = False\n    form = SQLFORM(db.courier).process()\n    if form.accepted: redirect(URL('index'))\n    return locals()\n\n\ndef show():\n    courier_obj = db.courier(request.args(0, cast=int))\n    return locals()\n\n\ndef user():\n    return dict(form=auth())\n\nresponse._vars=response._caller(index)\n"
+p7
+sS'snapshot'
+p8
+(dp9
+sS'traceback'
+p10
+S'Traceback (most recent call last):\n  File "/home/praveeny/web2py/gluon/restricted.py", line 227, in restricted\n    exec ccode in environment\n  File "/home/praveeny/web2py/applications/courier_portal/controllers/default.py", line 45, in <module>\n  File "/home/praveeny/web2py/gluon/globals.py", line 412, in <lambda>\n    self._caller = lambda f: f()\n  File "/home/praveeny/web2py/gluon/tools.py", line 3774, in f\n    return action(*a, **b)\n  File "/home/praveeny/web2py/applications/courier_portal/controllers/default.py", line 4, in index\n    email = db.auth_user().email\nAttributeError: \'NoneType\' object has no attribute \'email\'\n'
+p11
+s.

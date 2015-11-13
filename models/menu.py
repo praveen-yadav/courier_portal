@@ -38,10 +38,10 @@ DEVELOPMENT_MENU = True
 #########################################################################
 
 def _():
-    # shortcuts
+
     app = request.application
     ctr = request.controller
-    # useful links to internal and external resources
+
     response.menu += [
         (T('My Sites'), False, URL('admin', 'default', 'site')),
 

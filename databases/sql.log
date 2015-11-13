@@ -66,3 +66,453 @@ CREATE TABLE courier(
 success!
 success!
 success!
+timestamp: 2015-11-13T06:43:35.185744
+CREATE TABLE students(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    roll CHAR(512),
+    name CHAR(512),
+    room_num CHAR(512),
+    hostel CHAR(512),
+    phone CHAR(512),
+    email CHAR(512)
+);
+success!
+timestamp: 2015-11-13T06:57:36.829744
+ALTER TABLE courier ADD cid TEXT NOT NULL;
+timestamp: 2015-11-13T06:57:39.322237
+ALTER TABLE courier ADD cid TEXT NOT NULL;
+timestamp: 2015-11-13T06:58:36.796982
+ALTER TABLE courier ADD cid TEXT NOT NULL;
+timestamp: 2015-11-13T06:58:51.232684
+ALTER TABLE courier ADD cid TEXT NOT NULL;
+timestamp: 2015-11-13T06:59:27.879835
+ALTER TABLE courier ADD cid TEXT NOT NULL;
+timestamp: 2015-11-13T06:59:32.329581
+ALTER TABLE courier ADD cid TEXT NOT NULL;
+timestamp: 2015-11-13T06:59:39.878217
+ALTER TABLE courier ADD cid TEXT NOT NULL;
+timestamp: 2015-11-13T07:00:11.924108
+ALTER TABLE courier ADD cid TEXT NOT NULL;
+timestamp: 2015-11-13T07:00:14.348436
+ALTER TABLE courier ADD cid TEXT NOT NULL;
+timestamp: 2015-11-13T07:00:22.196560
+ALTER TABLE courier ADD cid TEXT NOT NULL;
+timestamp: 2015-11-13T07:04:23.405265
+ALTER TABLE courier ADD cid TEXT;
+success!
+timestamp: 2015-11-13T07:08:54.112072
+CREATE TABLE hostel(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT
+);
+success!
+success!
+success!
+success!
+success!
+timestamp: 2015-11-13T07:15:37.846445
+ALTER TABLE hostel ADD hostel_id INTEGER PRIMARY KEY AUTOINCREMENT;
+success!
+timestamp: 2015-11-13T07:15:53.182186
+ALTER TABLE hostel ADD hostel_id INTEGER PRIMARY KEY AUTOINCREMENT;
+success!
+timestamp: 2015-11-13T07:16:38.802319
+ALTER TABLE hostel ADD hostel_id INTEGER PRIMARY KEY AUTOINCREMENT;
+success!
+timestamp: 2015-11-13T07:17:38.796815
+ALTER TABLE hostel ADD hostel_id INTEGER PRIMARY KEY AUTOINCREMENT;
+success!
+timestamp: 2015-11-13T07:18:38.819027
+ALTER TABLE hostel ADD hostel_id INTEGER PRIMARY KEY AUTOINCREMENT;
+success!
+timestamp: 2015-11-13T07:19:38.807000
+ALTER TABLE hostel ADD hostel_id INTEGER PRIMARY KEY AUTOINCREMENT;
+success!
+timestamp: 2015-11-13T07:22:52.542769
+ALTER TABLE hostel ADD hostel_id INTEGER PRIMARY KEY AUTOINCREMENT;
+success!
+timestamp: 2015-11-13T14:04:33.354453
+ALTER TABLE hostel ADD hostel_id INTEGER PRIMARY KEY AUTOINCREMENT;
+success!
+timestamp: 2015-11-13T14:04:34.532229
+ALTER TABLE hostel ADD hostel_id INTEGER PRIMARY KEY AUTOINCREMENT;
+success!
+timestamp: 2015-11-13T16:17:18.324373
+ALTER TABLE hostel ADD hostel_id INTEGER PRIMARY KEY AUTOINCREMENT;
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!

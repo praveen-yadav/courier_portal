@@ -1,0 +1,21 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.SyntaxError'> define_table argument is not a Field or Table: integer"
+p3
+sS'layer'
+p4
+S'/home/praveeny/web2py/applications/courier_portal/models/db1.py'
+p5
+sS'code'
+p6
+S"# -*- coding: utf-8 -*-\ndb.define_table('courier',\n\tField('roll','reference students'),\n\tField('type_of_courier'),\n\tField('arrival_date','datetime'),\n\tField('last_email_sent','datetime'),\n\tField('address','text',requires=IS_NOT_EMPTY()),\n\tField('taken'),'integer')\n\ndb.define_table('students',\n                Field('roll','integer',requires=IS_NOT_EMPTY()),\n                Field('name','text'),\n                Field('room_num','integer'),\n                Field('hostel_name','reference hostel.name'),\n                Field('phone'),\n                Field('email')\n                )\ndb.define_table('hostel',\n                Field('id','integer',requires=IS_NOT_EMPTY()),\n                Field('name','text')\n                )\n\ndb.define_table('feedback',\n                Field('id','reference courier',requires=IS_NOT_EMPTY()),\n                Field('roll','reference students'),\n                Field('room_num','integer'),\n                Field('hostel_name','reference hostel.name'),\n                Field('phone'),\n                Field('email')\n                )\n"
+p7
+sS'snapshot'
+p8
+(dp9
+sS'traceback'
+p10
+S'Traceback (most recent call last):\n  File "/home/praveeny/web2py/gluon/restricted.py", line 227, in restricted\n    exec ccode in environment\n  File "/home/praveeny/web2py/applications/courier_portal/models/db1.py", line 8, in <module>\n    Field(\'taken\'),\'integer\')\n  File "/home/praveeny/web2py/gluon/packages/dal/pydal/base.py", line 819, in define_table\n    table = self.lazy_define_table(tablename,*fields,**args)\n  File "/home/praveeny/web2py/gluon/packages/dal/pydal/base.py", line 836, in lazy_define_table\n    table = table_class(self, tablename, *fields, **args)\n  File "/home/praveeny/web2py/gluon/packages/dal/pydal/objects.py", line 294, in __init__\n    \'define_table argument is not a Field or Table: %s\' % field)\nSyntaxError: define_table argument is not a Field or Table: integer\n'
+p11
+s.

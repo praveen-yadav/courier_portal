@@ -1,0 +1,31 @@
+# -*- coding: utf-8 -*-
+db.define_table('courier',
+    Field('cid','text'),
+	Field('roll','integer','reference students.roll'),
+	Field('type_of_courier'),
+	Field('arrival_date','datetime'),
+	Field('last_email_sent','datetime'),
+	Field('address','text',requires=IS_NOT_EMPTY()),
+	Field('taken','integer')
+
+    )
+    
+
+db.define_table('students',
+                Field('roll','integer',requires=IS_NOT_EMPTY()),
+                Field('name','text'),
+                Field('room_num','integer'),
+                Field('hostel_name','reference hostel.name'),
+                Field('phone'),
+                Field('email')
+                )
+db.define_table('hostel',
+                Field('id','integer',requires=IS_NOT_EMPTY()),
+                Field('name','text')
+                )
+
+db.define_table('feedback',
+                Field('id','reference courier',requires=IS_NOT_EMPTY()),
+                Field('roll','reference students'),
+                Field('comment','text'),
+                )
