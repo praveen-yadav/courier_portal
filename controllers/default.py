@@ -1,24 +1,30 @@
 @auth.requires_login()
 def index():
-    # email = db.auth_user('security').email
-    # print email
-    # if db.auth_membership.group_id == 10:
-    #    redirect(URL('create'))
-    #    pass
-    # else:
-    #    redirect(URL('show/3'))
-    #    pass
+    if auth.has_membership('security'):
+        print "security"
+        redirect(URL('security_index'))
+    else:
+        print "student"
+        redirect(URL('student_index'))
+    return locals()
 
-    #  auth.settings.login_next = URL('show')
+
+@auth.requires_membership(role='security')
+def security_index():
     rows = db(db.courier).select()
     return locals()
 
 
-def security_index():
-    pass
+@auth.requires_membership(role='students')
+def student_index():
+    rows = db(db.courier).select()
+    return locals()
 
-    # create can only be called by logged in people
 
+@auth.requires_membership(role='students')
+def show_student():
+    courier_obj=db.courier(request.args(0,cast=int))
+    return locals()
 
 
 @auth.requires_membership(role='security')
@@ -39,6 +45,44 @@ def create():
 def show():
     courier_obj = db.courier(request.args(0, cast=int))
     return locals()
+
+
+@auth.requires_login()
+def search():
+    form = SQLFORM.factory(Field('name',requires=IS_NOT_EMPTY()))
+    if form.accepts(request):
+
+        tokens = form.vars.name.split()
+        query = reduce(lambda a,b:a&b,
+                       [db.auth_user.first_name.contains(k)|db.auth_user.last_name.contains(k) \
+                            for k in tokens])
+        print query
+        people = db(query).select(orderby=alphabetical)
+    else:
+        people = []
+    return locals()
+
+
+# this is the Ajax callback
+# @auth.requires_login()
+# def friendship():
+#     """AJAX callback!"""
+#     if request.env.request_method!='POST': raise HTTP(400)
+#     if a0=='request' and not Link(source=a1,target=me):
+#         # insert a new friendship request
+#         Link.insert(source=me,target=a1)
+#     elif a0=='accept':
+#         # accept an existing friendship request
+#         db(Link.target==me)(Link.source==a1).update(accepted=True)
+#         if not db(Link.source==me)(Link.target==a1).count():
+#             Link.insert(source=me,target=a1)
+#     elif a0=='deny':
+#         # deny an existing friendship request
+#         db(Link.target==me)(Link.source==a1).delete()
+#     elif a0=='remove':
+#         # delete a previous friendship request
+#         db(Link.source==me)(Link.target==a1).delete()
+
 
 
 def user():

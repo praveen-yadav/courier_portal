@@ -1,66 +1,7 @@
 
 {{extend 'layout.html'}}
 <div class="container-fluid">
+MAIN PAGE
 
-
-
-	<div class="row">
-        <div class="col-md-12">
-			<div style="position: relative;left: 5%">
-				<img src="http://www.mike.org.in/2015/images/iitgate.jpg" alt="iiit-gate-logo"/>
-			</div>
-        </div>
-		<div class="col-md-8">
-            <h2>Previous couriers</h2>
-
-            <table class="table table-striped" style="margin-top: 20px;">
-
-              <tr>
-                <td> id </td>
-                <td> roll </td>
-                <td> type </td>
-                <td> arrival_date </td>
-                <td> email last sent </td>
-                <td> address </td>
-                <td>taken</td>
-              </tr>
-               {{for row in rows:}}
-                <tr>
-                <td><a href="{{=URL('show',args=row.id)}}">{{=row.id}}</a>  </td>
-                <td> {{=row.roll}} </td>
-                <td> {{=row.type_of_courier}}type </td>
-                <td> {{=row.arrival_date}} </td>
-                <td> {{=row.last_email_sent}} </td>
-                <td> {{=row.address}} </td>
-                <td>{{=row.taken}}</td>
-                {{pass}}
-              </tr>
-
-
-            </table>
-		</div>
-		<div class="col-md-4">
-			<h2>
-				Search Parcel
-			</h2>
-           <form role="form">
-              <div class="form-group">
-                <label for="search">Search:</label>
-                <input type="search" class="form-control" id="search">
-              </div>
-              <div class="form-group"><label>Select category </label>
-                <select name="category" >
-
-                  <option value="name">Name</option>
-                  <option value="roll">Roll No</option>
-
-                </select>
-              </div>
-
-              <button type="submit" class="btn btn-default">Submit</button>
-           </form>
-		</div>
-
-	</div>
 </div>
 

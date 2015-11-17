@@ -26,11 +26,20 @@ response.google_analytics_id = None
 
 response.menu = [
     (T('Home'), False, URL('default', 'index'), []),
+    (T('Help'), False, URL('default', 'help'), []),
+]
+response.menu_student = [
+    (T('Home'), False, URL('default', 'index'), []),
+    (T('Show'), False, URL('default', 'show'), []),
+    (T('Feedback'), False, URL('default', 'feedback'), []),
+    (T('Search'), False, URL('default', 'search'), []),
+]
+response.menu_security = [
+    (T('Home'), False, URL('default', 'index'), []),
     (T('Create'), False, URL('default', 'create'), []),
     (T('Show'), False, URL('default', 'show'), []),
-
+    (T('Search'), False, URL('default', 'search'), []),
 ]
-
 DEVELOPMENT_MENU = True
 
 #########################################################################
@@ -42,20 +51,7 @@ def _():
     app = request.application
     ctr = request.controller
 
-    response.menu += [
-        (T('My Sites'), False, URL('admin', 'default', 'site')),
 
-          (T('Help'), False, '#', [
-             (T('Online book'), False, 'http://www.web2py.com/book'),
-             LI(_class="divider"),
-             (T('iiit courier portal'), False,
-              'http://courier.iiit.ac.in'),
-             (T('Introduction'), False,
-              'http://www.web2py.com/book/default/chapter/01'),
-             (T('Python'), False,
-              'http://www.web2py.com/book/default/chapter/02'),
-             ]),
-        ]
 if DEVELOPMENT_MENU: _()
 
 if "auth" in locals(): auth.wikimenu() 
