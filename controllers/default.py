@@ -23,7 +23,32 @@ def student_index():
 
 @auth.requires_membership(role='students')
 def show_student():
-    courier_obj=db.courier(request.args(0,cast=int))
+    if request.args:
+        db.feedbacks.courier_id.writable = True
+        db.feedbacks.courier_id.readable = True
+        courier_obj = db.courier(request.args(0,cast=int))
+        oldfeedback = db(db.feedbacks.courier_id == request.args(0 , cast=int)).select(db.feedbacks.body)
+        pass
+    else:
+        BEAUTIFY("NOTHING TO SHOW")
+    return locals()
+
+
+@auth.requires_membership('students')
+def feedback():
+
+    if request.args(0) is None:
+        print "hye"
+        pass
+    else:
+        record = db.feedbacks(db.feedbacks.courier_id == request.args(0, cast=int))
+        db.feedbacks.courier_id.default=request.args(0,cast=int)
+        form = SQLFORM(db.feedbacks, record).process()
+        form.vars.courier_id=request.args(0,cast=int)
+        if form.accepted:
+            redirect(URL('show_student',args=request.args(0,cast=int)))
+            pass
+        pass
     return locals()
 
 
@@ -61,28 +86,6 @@ def search():
     else:
         people = []
     return locals()
-
-
-# this is the Ajax callback
-# @auth.requires_login()
-# def friendship():
-#     """AJAX callback!"""
-#     if request.env.request_method!='POST': raise HTTP(400)
-#     if a0=='request' and not Link(source=a1,target=me):
-#         # insert a new friendship request
-#         Link.insert(source=me,target=a1)
-#     elif a0=='accept':
-#         # accept an existing friendship request
-#         db(Link.target==me)(Link.source==a1).update(accepted=True)
-#         if not db(Link.source==me)(Link.target==a1).count():
-#             Link.insert(source=me,target=a1)
-#     elif a0=='deny':
-#         # deny an existing friendship request
-#         db(Link.target==me)(Link.source==a1).delete()
-#     elif a0=='remove':
-#         # delete a previous friendship request
-#         db(Link.source==me)(Link.target==a1).delete()
-
 
 
 def user():

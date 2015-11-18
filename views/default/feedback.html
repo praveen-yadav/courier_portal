@@ -1,0 +1,10 @@
+{{extend 'layout_student.html'}}
+        <p>Welcome {{=db.auth_user(auth.user_id).first_name}}</p>
+        <h3>Feedback Form</h3>
+{{      if request.args(0) is None:
+        =BEAUTIFY("TODO : SHOW EVERY FEEDBACk")
+        pass
+        else:
+        =form
+        pass
+}}

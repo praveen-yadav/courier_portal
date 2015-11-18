@@ -19,12 +19,15 @@ db.define_table('students',
                 )
 
 db.define_table('feedbacks',
-                Field('courier_id','reference courier'),
+                Field('courier_id', 'reference courier'),
                 Field('body', 'text', requires=IS_NOT_EMPTY(), label='What is your Feedback?'),
-                auth.signature
+                auth.signature,
+                primarykey=['courier_id'],
+                migrate=False
                 )  # created_on, created_by,modified_on,modified_by
 
 User = db.auth_user
 alphabetical = User.first_name | User.last_name
+
 
 def name_of(user): return '%(first_name)s %(last_name)s' % user
