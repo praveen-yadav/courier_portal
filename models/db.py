@@ -28,6 +28,14 @@ auth = Auth(db)
 service = Service()
 plugins = PluginManager()
 
+auth.settings.extra_fields['auth_user']= [
+    Field('phone', 'integer', requires=IS_NOT_EMPTY(error_message=auth.messages.is_empty) , label=T('Mobile')),
+    Field('hostel', requires=IS_IN_SET(('Bakul', 'Parul', 'Parijaat', 'OBH', 'NBH')) , label=T('Hostel')),
+    Field('room', 'integer', requires=IS_NOT_EMPTY(error_message=auth.messages.is_empty) , label=T('Room No'))
+]
+auth.define_tables(username=False, signature=False)
+
+
 ## create all tables needed by auth if not custom tables
 auth.define_tables(username=False, signature=False)
 
