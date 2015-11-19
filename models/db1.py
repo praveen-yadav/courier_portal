@@ -7,16 +7,6 @@ db.define_table('courier',
                 Field('address', 'text', requires=IS_NOT_EMPTY()),
                 Field('taken', 'boolean', default='false'))
 
-db.define_table('hostel',
-                Field('name', 'text')
-                )
-
-db.define_table('students',
-                Field('student_id', 'reference auth_user'),
-                Field('hostel_id', 'reference hostel'),
-                Field('room_num', 'integer'),
-                Field('phone')
-                )
 
 db.define_table('feedbacks',
                 Field('courier_id', 'reference courier'),

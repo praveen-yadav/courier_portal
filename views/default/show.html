@@ -1,4 +1,30 @@
 {{extend 'layout.html'}}
-<h2>{{=courier_obj.roll}}</h2>
-<i>Received on{{=courier_obj.arrival_date}}</i>
+
+  <table class="table table-hover" style="margin-top: 20px;">
+
+              <tr>
+                <th> id </th>
+                <th> Name </th>
+                <th> type </th>
+                <th> arrival_date </th>
+                <th> email last sent </th>
+                <th> address </th>
+                <th>taken</th>
+              </tr>
+               {{for row in courier_obj:}}
+                <tr>
+                <td><a href="{{=URL('show_student',args=row.id)}}">{{=row.id}}</a>  </td>
+                <td> {{=db.auth_user(row.student).first_name}} </td>
+                <td> {{=row.type_of_courier}}type </td>
+                <td> {{=row.arrival_date}} </td>
+                <td> {{=row.last_email_sent}} </td>
+                <td> {{=row.address}} </td>
+                <td>{{=row.taken}}</td>
+                {{pass}}
+              </tr>
+
+
+            </table>
+      {{  pass}}
+
 
