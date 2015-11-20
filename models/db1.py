@@ -4,19 +4,12 @@ db.define_table('courier',
                 Field('type_of_courier'),
                 Field('arrival_date', 'datetime'),
                 Field('last_email_sent', 'datetime'),
-                Field('address', 'text', requires=IS_NOT_EMPTY()),
-                Field('taken', 'boolean', default='false'))
-
-db.define_table('hostel',
-                Field('name', 'text')
+                Field('phone', 'integer', requires=IS_NOT_EMPTY(error_message=auth.messages.is_empty), label=T('Mobile')),
+                Field('address', requires=IS_IN_SET(('Bakul', 'Parul', 'Parijaat', 'OBH', 'NBH')), label=T('Hostel')),
+                Field('room', 'integer', requires=IS_NOT_EMPTY(error_message=auth.messages.is_empty), label=T('Room No')),
+                Field('taken', 'boolean', default='false')
                 )
 
-db.define_table('students',
-                Field('student_id', 'reference auth_user'),
-                Field('hostel_id', 'reference hostel'),
-                Field('room_num', 'integer'),
-                Field('phone')
-                )
 
 db.define_table('feedbacks',
                 Field('courier_id', 'reference courier'),

@@ -32,13 +32,12 @@ response.menu_student = [
     (T('Home'), False, URL('default', 'index'), []),
     (T('Show'), False, URL('default', 'show'), []),
     (T('Feedback'), False, URL('default', 'feedback'), []),
-    (T('Search'), False, URL('default', 'search'), []),
 ]
 response.menu_security = [
     (T('Home'), False, URL('default', 'index'), []),
     (T('Create'), False, URL('default', 'create'), []),
     (T('Show'), False, URL('default', 'show'), []),
-    (T('Search'), False, URL('default', 'search'), []),
+    (T('Download Feedbacks'), False, URL('default', 'csv_download'), []),
 ]
 DEVELOPMENT_MENU = True
 

@@ -11,12 +11,14 @@ def index():
 
 @auth.requires_membership(role='security')
 def security_index():
+
     rows = db(db.courier).select()
     return locals()
 
 
 @auth.requires_membership(role='students')
 def student_index():
+
     rows = db(db.courier.student == auth.user_id).select(orderby=~db.courier.arrival_date)
     temp = []
     for row in rows:
@@ -79,9 +81,21 @@ def show():
         courier_obj = db.courier(request.args(0, cast=int))
     return locals()
 
+@auth.requires_membership(role='security')
+def show_security():
+     if request.args(0) is None:
+         courier_obj= db(db.courier.student == auth.user_id).select()
+         print courier_obj
+         pass
+     else:
+         courier_obj = db.courier(request.args(0, cast=int))
+     return locals()
+
+
 
 @auth.requires_login()
 def search():
+    print "search page requested\n"
     people = []
     rows = []
     if request.vars.search == "":
@@ -95,13 +109,36 @@ def search():
                            [db.auth_user.first_name.contains(k) | db.auth_user.last_name.contains(k) \
                             for k in tokens])
             people = db(query).select(orderby=alphabetical)
+            print people
+            pass
 
         elif request.vars.category and request.vars.category == "roll":
             tokens = int(request.vars.search)
             rows = db(db.courier.student == tokens).select()
-
-        pass
+            print rows
+            pass
     return locals()
+
+
+def export_csv():
+    import gluon.contenttype
+    response.headers['Content-Type'] = \
+        gluon.contenttype.contenttype('.csv')
+
+    rows = db(db.courier.type_of_courier.contains(request.vars.company)).select()
+    allfeedbacks=[]
+    s = ""
+    for row in rows:
+         allfeedbacks.append(db(db.feedbacks.courier_id == row.id).select(db.feedbacks.body))
+         for fb in allfeedbacks:
+             s = s+str(fb)
+    return s
+
+
+@auth.requires_membership(role='security')
+def csv_download():
+    return locals()
+
 
 
 def user():
