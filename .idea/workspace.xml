@@ -2,111 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd01e914-a2a5-4a7c-8178-1b1dc242ab6e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-10.07-18-12.909233fd-0c3e-42a6-a8f1-fc397a00d79e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-10.07-19-12.8a3bb259-63ef-4a79-9ab5-ff8e103f369e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-10.07-20-12.206ab887-3a23-4e8d-baaf-8f465849f553" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-10.07-21-12.e972190c-da58-4578-9cd4-fc8f49ae28e5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-10.07-21-18.245074b3-bf3b-4f93-8632-da356f2517ea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-10.07-22-20.e80e9bcf-779f-48fe-8ede-dc344c186974" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-10.07-29-48.6a5802d0-6902-4060-a422-cc5b4ebbfc2d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-10.07-57-27.5b1dc14c-ce9e-474b-8b33-08868c529f9c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-10.07-57-53.e94c3446-7d2b-4823-848d-6868e40fd984" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-10.09-16-50.26d4824c-df50-472c-b0a1-d9e4fa0dcdd8" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-10.09-21-57.e1c9619a-6c2a-4325-a7ad-43e1e3b64e48" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-10.09-22-57.b41863bb-6ea0-4e7d-89ef-81c6b056acf7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-10.09-22-58.dbb139d7-8dfc-45b4-8d9f-c6226bc076a9" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-10.10-18-43.afcb8ec6-365d-4f81-960b-7fe17db9a37b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-10.10-18-58.5f83d892-3129-483a-bfe8-2edd5a9b50e0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-10.10-19-00.a68b36de-7aa8-4795-b240-8a843307099a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-10.10-19-02.c2f5b960-06f3-4ec3-a0b6-b9f746ff8d30" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-10.10-19-12.e68ef1eb-9044-4f12-81bf-cdd9ba52301f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-37-20.0154ea7e-43db-40a3-8544-7be00752ca5b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-46-35.b4385991-8b0e-47b9-8b51-d2dc12044e8e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-47-35.56e7fbec-08a0-4ca2-b2f6-2645789cd0d0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-48-35.aeb809e0-6710-4628-94c1-9319093d4046" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-49-35.f8b7041c-704e-41b5-96dd-cc922b325308" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-50-35.75da3f67-3e06-441f-8749-d40e904305b0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-51-35.b4db44c4-4445-4912-bc57-e656ff173c72" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-52-35.18d42fe9-b9a1-49ba-b9f4-4ad4e865d02e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-53-35.eac74af0-a534-44ad-83db-d5bd0a9eedfa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-54-35.fbdb27f4-6be6-458f-94fa-f5e85e034b27" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-55-13.c2fcad05-401f-44d1-b594-8493bbb1ec95" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-55-36.faf52dfd-0824-4836-8622-e396f2f9390f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-56-24.efe3ab7f-fe33-4250-9e4a-65d8bb0a9005" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-56-36.c945ee87-ab97-4e01-954b-d224e01730c3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-57-36.e07a560e-47c5-4b24-8d28-d010b55b344a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-57-39.20f75154-991a-4fc7-b6f6-800bfccc1427" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-58-36.0979b27e-e873-4c54-be7e-b51dee01229c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-58-51.31ea587b-96a3-432b-a9e0-dc60af59567f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-59-27.a39502ef-9061-4c66-887c-355848cbf9f0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-59-32.d3d61608-a0b6-48a2-babe-c9a6195d22db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.06-59-39.76fca4d7-4984-40c0-b931-688e9da7937a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-00-11.2fda6c55-4e7e-4088-8544-8b4ce0d0100f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-00-14.12d66617-8116-40bf-8711-ecb85d75d29b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-00-22.d5182dfc-0080-4757-8a08-0789d02ba62b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-04-23.095861c3-f4e7-4116-b735-c096fc43277c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-04-24.7229717c-9ce5-47a6-bc91-4040643ee634" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-06-01.110f3cb1-f961-4d79-9762-7138eabd76c1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-06-29.2f13ee53-543c-4df9-a18d-b67a951e5786" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-08-37.02b6e60b-ea57-406b-af0a-555fcc6ae4fb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-08-54.d638f552-5829-46e7-bd2f-04cd0655192f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-09-37.4fc63329-be2d-4e6c-a4b3-300a2e087e28" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-10-37.8cf88d57-0df1-4ee5-b2a5-35a825534e1d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-10-42.df2f2311-7a8e-4ddd-8328-19264c68167f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-11-37.ec60fef3-a8f6-442e-a119-f61ef9b897fd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-12-37.f012cd3a-9214-4857-8ef3-eb5e15b62f4c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-13-37.0f29b2c5-a6c7-4cef-a83b-7174e6a184bf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-13-44.57ad485d-7c9e-4894-a621-007c3d728935" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-14-03.07f31f41-4682-493a-9b05-4af31ddbfceb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-14-20.d47ae09f-da87-4cb7-af80-35b0b525e1f1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-14-37.4d889360-d639-4ecb-8a4b-c1a22b41dae3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-15-37.4205a631-695b-4aa4-877b-356f9eaf72fd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-15-53.eff8bf22-64c0-42f8-b9ef-17bb4f52b1d6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-16-38.212da2ea-72f7-4826-91f1-910cdbf28c8f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-17-38.571b6cdb-ab1d-4c9d-894c-3905eaa4bf21" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-18-38.9c065414-1555-4924-9b7f-1f9179cf2bf1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-19-38.14761cd2-60ff-46be-b1a3-51c7d3b5510a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.07-22-52.dea6be7a-74cb-47cb-8501-445ea18d3448" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.14-04-28.716f3644-bba7-4676-bb08-ae257b49b76e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.14-04-29.baaffda4-5cc2-4072-b563-9eb9a5421ae2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.16-17-18.b1f5b6f8-ce15-4aa3-8e53-ea11c6089e43" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.17-34-26.46cf57cb-2fdc-4d13-82c7-7ecc4dd74a34" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.17-52-40.cf871573-797e-46a3-97af-8fec2e380c1b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.18-19-01.a91e7d4a-6b4c-49c0-ad4e-6f110c02573b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.18-20-12.2f5c2654-7610-481e-a172-8be0612e9673" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.18-33-14.2e805c9d-f9c6-4b11-9d8f-bc451c68bea9" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.18-33-48.f425685a-b6f2-4ca0-ac8a-faae37739d17" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.18-34-07.4891f501-b780-42d3-93a5-de74ae6065fe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.18-34-33.7df96f5f-c417-4eac-913a-15b69b88b51c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.18-35-02.b14d04c6-ed06-4cf6-b957-fb43c2d71fac" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.18-35-46.2a6574cc-b941-489a-a7f0-e3dcd53d0460" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.18-36-06.edc71e56-68e0-4428-a770-ab8e368d84ab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errors/127.0.0.1.2015-11-13.18-37-58.83c626b4-08bf-4690-b840-dc9b096b8faa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/026/0c1/127.0.0.1-412a49db-4c49-4b31-ac66-003f8e98f638" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/092/023/127.0.0.1-37ee9d8e-7d09-4f01-903f-a544be4961aa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/0bf/0b8/127.0.0.1-e3b0ba7e-5ac4-4e41-9017-df0ec71d403c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/0c9/0ef/127.0.0.1-1ad24c16-4476-4a79-8d73-aec322d46197" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/0f3/0c7/127.0.0.1-0096308a-ee7b-4da4-a7fa-9d0276912344" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/0f7/01c/127.0.0.1-b1e55b53-721d-4b0a-94ca-c9ce3b86f6ab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/15c/198/127.0.0.1-50802c26-b97d-4b3d-a51e-0030fe143499" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/15d/095/127.0.0.1-608123e8-d6e6-49e7-b644-c682d8300c03" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/165/11e/127.0.0.1-40d8234d-ae43-46aa-8491-9f6d44f513a7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/166/0eb/127.0.0.1-56b6b75f-cb97-44a7-8a55-c7d6855eac14" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/179/0e6/127.0.0.1-8219b7a4-a5cd-4424-8d0b-9df5ba4a100d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/17d/093/127.0.0.1-62d7e345-3492-4d40-9b13-fa9a28775c1d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/18c/1c9/127.0.0.1-3688a9c7-22dd-446d-a70f-a73c848ab881" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/18e/1e9/127.0.0.1-79024e1a-8bf6-42ca-8166-373a43ff4ad7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/1a4/194/127.0.0.1-1a45681b-6ffc-4aaf-b6d8-7c25c976a65b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/1a5/0c4/127.0.0.1-7f061a9f-c5a2-4c5d-b783-bcf0e3687fdd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/1a8/18c/127.0.0.1-672e20cf-e2b3-4ec1-9075-94122444328d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/1c5/1b8/127.0.0.1-6933fc23-0b1d-41df-8f4c-116d3d273b34" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/1da/1c1/127.0.0.1-af803b2d-0a26-402f-9839-40019e9f83a3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/1de/158/127.0.0.1-f659c005-b640-424c-b1b1-e6514515b83e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sessions/1f6/1f0/127.0.0.1-0c78be12-2ece-4031-883c-fbfd3b06f57b" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/databases/storage.sqlite" afterPath="$PROJECT_DIR$/databases/storage.sqlite" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/default.py" afterPath="$PROJECT_DIR$/controllers/default.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/databases/sql.log" afterPath="$PROJECT_DIR$/databases/sql.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/default/show.html" afterPath="$PROJECT_DIR$/views/default/show.html" />
     </list>
     <ignored path="courier_portal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -131,13 +30,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="default.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/default.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.5584416">
-              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
               <folding>
                 <marker date="1448079590332" expanded="true" signature="4545:4546" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/default/show.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.4444447">
+              <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show_student.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/default/show_student.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.444445">
+              <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student_index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/default/student_index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20689656">
+              <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+              <folding>
+                <element signature="n#style#0;n#select#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,7 +108,6 @@
         <option value="$PROJECT_DIR$/views/layout.html" />
         <option value="$PROJECT_DIR$/static/css/web2py.css" />
         <option value="$PROJECT_DIR$/controllers/temp.txt" />
-        <option value="$PROJECT_DIR$/views/default/show.html" />
         <option value="$PROJECT_DIR$/views/layout_student.html" />
         <option value="$PROJECT_DIR$/views/layout_security.html" />
         <option value="$PROJECT_DIR$/views/default/security_index.html" />
@@ -193,6 +123,7 @@
         <option value="$PROJECT_DIR$/views/default/show_update.html" />
         <option value="$PROJECT_DIR$/views/default/show_security.html" />
         <option value="$PROJECT_DIR$/controllers/default.py" />
+        <option value="$PROJECT_DIR$/views/default/show.html" />
       </list>
     </option>
   </component>
@@ -600,18 +531,25 @@
       <option name="project" value="LOCAL" />
       <updated>1448032446798</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="student index select button css">
+      <created>1448079631182</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1448079631182</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -621,7 +559,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2503864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -839,13 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/default/show_student.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -894,13 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11525424">
           <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/default/student_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3703704">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -998,14 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/default/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.666667">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/default/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.0275862">
@@ -1032,10 +947,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/default.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5584416">
-          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
           <folding>
             <marker date="1448079590332" expanded="true" signature="4545:4546" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/default/show_student.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.444445">
+          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/default/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.4444447">
+          <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/default/student_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20689656">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
