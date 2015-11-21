@@ -11,8 +11,9 @@ def index():
 
 @auth.requires_membership(role='security')
 def security_index():
-    if int(request.args(0))==0:
-        response.flash="Succesfully udpated"
+    if request.args:
+        if request.args(0,cast=int) == 0:
+            response.flash="Succesfully udpated"
     rows = db(db.courier).select()
     return locals()
 
