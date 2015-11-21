@@ -11,7 +11,8 @@ def index():
 
 @auth.requires_membership(role='security')
 def security_index():
-
+    if int(request.args(0))==0:
+        response.flash="Succesfully udpated"
     rows = db(db.courier).select()
     return locals()
 
@@ -38,6 +39,7 @@ def show_student():
     else:
         BEAUTIFY("NOTHING TO SHOW")
     return locals()
+
 
 
 @auth.requires_membership('students')
@@ -91,6 +93,18 @@ def show_security():
          courier_obj = db.courier(request.args(0, cast=int))
      return locals()
 
+
+@auth.requires_membership(role='security')
+def show_update():
+    ids = int(request.vars.id)
+    if request.vars.taken:
+        db(db.courier.id==ids).update(taken=True)
+        response.flash="Succesfully update"
+        redirect(URL('security_index',args=0))
+    else:
+        db(db.courier.id==ids).update(taken=False)
+        response.flash="Succesfully update"
+        redirect(URL('security_index',args=0))
 
 
 @auth.requires_login()
